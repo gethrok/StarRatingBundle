@@ -34,7 +34,7 @@ class RatingType extends AbstractType
         return NumberType::class;
     }
 
-    public function getName()
+    public function getBlockPrefix()
     {
         return 'rating';
     }
